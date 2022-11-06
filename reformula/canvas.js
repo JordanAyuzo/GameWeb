@@ -308,7 +308,7 @@ function restablecer(){
     marcador =0;
     contpuntos =0;
     tambono= 64;
-    rapicar=2;
+    rapicar=2.5;
     rapiobs=3;
     rapmetros=1;
     avancefondo=2;
@@ -332,7 +332,7 @@ function sumapuntos(){
         if (contpuntos==subenivel){
             subenivel=subenivel+10;
             rapicar=rapicar+1;
-            rapiobs=rapiobs+1.5;
+            rapiobs=rapiobs+1;
             rapmetros+=1;
             avancefondo+=.5;
         }
